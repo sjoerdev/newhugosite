@@ -45,11 +45,14 @@ languageName = "English"
     copyright = false
     author = false
     since = 2024
+  [params.app]
+    noFavicon = false
+    svgFavicon = "/assets/favicon.svg"
 
   [params.home]
     [params.home.profile]
       enable = true
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/avatar.jpg"
       title = "Sjoerd Wouters"
       subtitle = ""
       typeit = false
