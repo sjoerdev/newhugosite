@@ -347,16 +347,11 @@ comming soon...
 
 comming soon...
 
-<!-- this style block only exists for overriding the papermod hugo theme tables -->
+<!-- this style block only exists for overriding the hugo theme tables -->
 <style>
-  .table
-  {
-    font-size: 1rem !important;
-  }
 
   .table th, .table td
   {
-    border: 1px solid !important;
     text-align: left !important;
     padding: 6px !important;
   }
@@ -364,13 +359,11 @@ comming soon...
   .command-table
   {
     width: 100% !important;
-    font-size: 1rem !important;
     table-layout: fixed !important;
   }
 
   .command-table th, .command-table td
   {
-    border: 1px solid !important;
     text-align: left !important;
     padding: 6px !important;
   }
@@ -396,14 +389,12 @@ comming soon...
   .shebang-table
   {
     width: 100% !important;
-    font-size: 1rem !important;
   }
 
   .shebang-table th, .shebang-table td
   {
-    border: 1px solid !important;
     text-align: left !important;
     padding: 6px !important;
   }
 </style>
-<!-- this style block only exists for overriding the papermod hugo theme tables -->
+<!-- this style block only exists for overriding the hugo theme tables -->
