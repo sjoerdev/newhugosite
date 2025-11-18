@@ -39,6 +39,12 @@ languageName = "English"
     [params.header.title]
       logo = ""
       name = "Sjoerd Wouters"
+  [params.footer]
+    enable = true
+    hugo = true # Show hugo and theme info
+    copyright = false
+    author = false
+    since = 2024
 
   [params.home]
     [params.home.profile]
