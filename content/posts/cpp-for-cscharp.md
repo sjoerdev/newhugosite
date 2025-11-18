@@ -7,9 +7,6 @@ description: |
     As a C# developer you don't need to learn C++ from the ground up, you just need to know the major differrences.
 
 summary: "In this guide i will be comparing only the major differences between C# and C++"
-ShowToc: true
-TocOpen: true
-ShowBreadCrumbs: true
 ---
 
 ## Types
