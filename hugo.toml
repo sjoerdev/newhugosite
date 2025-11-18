@@ -48,7 +48,6 @@ languageName = "English"
   [params.app]
     noFavicon = false
     svgFavicon = "/assets/favicon.svg"
-
   [params.home]
     [params.home.profile]
       enable = true
@@ -65,11 +64,39 @@ languageName = "English"
     Discord = "https://discordapp.com/users/906668622099927041"
     Email = "mailto:sjoerdwouters2004@gmail.com"
     Phone = "tel:+31628860939"
+  [params.page]
+    hiddenFromHomePage = false
+    fontawesome = true
+    linkToMarkdown = true
+    [params.page.toc]
+      enable = true
+      keepStatic = false # if the toc should be to the side bar
+      auto = true # auto collapse to sidebar
+    [params.page.math]
+      enable = true
+    [params.page.code]
+      copy = false # show the copy button
+    [params.page.share]
+      enable = false
 
 [markup]
   [markup.highlight]
     noClasses = false
     lineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineNumbersInTable = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
     [markup.goldmark.renderer]
       unsafe = true
