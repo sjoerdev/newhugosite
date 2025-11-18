@@ -5,54 +5,62 @@ title = "Sjoerd Wouters"
 languageCode = "en"
 languageName = "English"
 
+[params.author]
+  name = "Sjoerd Wouters"
+
 [menu]
   [[menu.main]]
-  weight = 1
-  identifier = "posts"
-  pre = ""
-  post = ""
-  name = "Blog"
-  url = "/posts/"
-  title = ""
+    weight = 1
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "Blog"
+    url = "/posts/"
+    title = ""
   [[menu.main]]
-  weight = 2
-  identifier = "resume"
-  pre = ""
-  post = ""
-  name = "Resume"
-  url = "/resume/"
-  title = ""
+    weight = 2
+    identifier = "resume"
+    pre = ""
+    post = ""
+    name = "Resume"
+    url = "/resume/"
+    title = ""
   [[menu.main]]
-  weight = 3
-  identifier = "projects"
-  pre = ""
-  post = ""
-  name = "Projects"
-  url = "/projects/"
-  title = ""
+    weight = 3
+    identifier = "projects"
+    pre = ""
+    post = ""
+    name = "Projects"
+    url = "/projects/"
+    title = ""
 
 [params]
+  [params.header]
+    [params.header.title]
+      logo = ""
+      name = "Sjoerd Wouters"
+
   [params.home]
     [params.home.profile]
-    enable = true
-    avatarURL = "/images/avatar.png"
-    title = "Sjoerd Wouters"
-    subtitle = ""
-    typeit = false
-    social = true
+      enable = true
+      avatarURL = "/images/avatar.png"
+      title = "Sjoerd Wouters"
+      subtitle = ""
+      typeit = false
+      social = true
     [params.home.posts]
-    enable = true
-    paginate = 6
+      enable = true
+      paginate = 6
   [params.social]
-  GitHub = "https://github.com/sjoerdev"
-  Discord = "https://discordapp.com/users/906668622099927041"
-  Email = "mailto:sjoerdwouters2004@gmail.com"
-  Phone = "tel:+31628860939"
+    GitHub = "https://github.com/sjoerdev"
+    Discord = "https://discordapp.com/users/906668622099927041"
+    Email = "mailto:sjoerdwouters2004@gmail.com"
+    Phone = "tel:+31628860939"
 
 [markup]
   [markup.highlight]
-  noClasses = false
-  lineNos = false
+    noClasses = false
+    lineNos = false
   [markup.goldmark]
     [markup.goldmark.renderer]
-    unsafe = true
+      unsafe = true
